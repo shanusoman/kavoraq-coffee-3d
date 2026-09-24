@@ -1,0 +1,62 @@
+/**
+ * Product catalogue. Replace `image` with a real photo path (e.g. '/images/espresso.jpg')
+ * to swap out the generated packaging artwork.
+ */
+export const PRODUCTS = [
+  {
+    id: 'espresso',
+    name: 'Espresso',
+    tagline: 'Dense, syrupy, built for milk',
+    description: 'A blend roasted for pressure — dark chocolate, molasses and a long hazelnut finish.',
+    roast: 'Medium-dark',
+    weight: '250 g',
+    price: 780,
+    palette: { bag: '#1b120d', label: '#c8925a', ink: '#f3e7d6' },
+    image: null,
+  },
+  {
+    id: 'signature',
+    name: 'Signature Blend',
+    tagline: 'The house cup',
+    description: 'Our everyday blend of washed Chikmagalur and natural Ethiopian. Caramel, red berry, cocoa.',
+    roast: 'Medium',
+    weight: '250 g',
+    price: 840,
+    featured: true,
+    palette: { bag: '#6b3a1f', label: '#efe2cc', ink: '#2a170c' },
+    image: null,
+  },
+  {
+    id: 'dark',
+    name: 'Dark Roast',
+    tagline: 'Smoke and velvet',
+    description: 'Taken just past second crack. Bittersweet cacao, toasted spice, a heavy, quiet body.',
+    roast: 'Dark',
+    weight: '250 g',
+    price: 760,
+    palette: { bag: '#0f0a08', label: '#8c5a36', ink: '#e8d6bf' },
+    image: null,
+  },
+  {
+    id: 'single-origin',
+    name: 'Single Origin',
+    tagline: 'Baba Budangiri estate',
+    description: 'A rotating micro-lot. This season: honey-processed, with apricot, jaggery and jasmine.',
+    roast: 'Light',
+    weight: '200 g',
+    price: 980,
+    palette: { bag: '#d8c3a2', label: '#3a2415', ink: '#f6ecdc' },
+    image: null,
+  },
+  {
+    id: 'cold-brew',
+    name: 'Cold Brew',
+    tagline: 'Steeped for 18 hours',
+    description: 'Ready-to-drink concentrate. Smooth, low-acid, with notes of cola and dark cherry.',
+    roast: 'Medium',
+    weight: '4 × 200 ml',
+    price: 640,
+    palette: { bag: '#2c3a3a', label: '#d7b98a', ink: '#f1e6d4' },
+    image: null,
+  },
+]
