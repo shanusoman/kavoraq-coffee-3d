@@ -33,7 +33,7 @@ export default function PackArt({ product }) {
           <rect x="164" y="22" width="72" height="30" rx="6" fill={label} />
           <path d="M168 40h64v46c0 18 44 36 44 84v290c0 18-12 30-30 30h-92c-18 0-30-12-30-30V170c0-48 44-66 44-84z" fill={`url(#shade-${uid})`} />
           <rect x="136" y="230" width="128" height="170" fill={label} />
-          <text x="200" y="272" textAnchor="middle" className="pack__brand" fill={bag}>{SITE.brand}</text>
+          <text x="200" y="272" textAnchor="middle" className="pack__brand" fill={bag} textLength="136" lengthAdjust="spacingAndGlyphs">{SITE.brand.toUpperCase()}</text>
           <line x1="160" x2="240" y1="288" y2="288" stroke={bag} strokeOpacity="0.4" />
           <text x="200" y="324" textAnchor="middle" className="pack__name" fill={bag}>Cold</text>
           <text x="200" y="352" textAnchor="middle" className="pack__name" fill={bag}>Brew</text>
@@ -49,8 +49,8 @@ export default function PackArt({ product }) {
           ))}
           <circle cx="200" cy="108" r="9" fill="none" stroke={ink} strokeOpacity="0.35" />
           <rect x="124" y="170" width="152" height="230" fill={label} />
-          <text x="200" y="214" textAnchor="middle" className="pack__brand" fill={bag}>{SITE.brand}</text>
-          <text x="200" y="232" textAnchor="middle" className="pack__meta" fill={bag}>COFFEE • CRAFT • MOMENT</text>
+          <text x="200" y="214" textAnchor="middle" className="pack__brand" fill={bag} textLength="136" lengthAdjust="spacingAndGlyphs">{SITE.brand.toUpperCase()}</text>
+          <text x="200" y="232" textAnchor="middle" className="pack__meta" fill={bag} textLength="136" lengthAdjust="spacingAndGlyphs">COFFEE • CRAFT • MOMENT</text>
           <g transform="translate(200 280) rotate(-24)">
             <ellipse rx="15" ry="22" fill={bag} />
             <path d="M-3-20c9 9-7 22 3 40" stroke={label} strokeWidth="3" fill="none" strokeLinecap="round" />

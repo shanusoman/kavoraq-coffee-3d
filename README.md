@@ -1,4 +1,4 @@
-# KAVORA — From Bean to Moment
+# KAVORAQ Coffee — From Bean to Moment
 
 COFFEE • CRAFT • MOMENT
 

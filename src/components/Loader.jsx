@@ -15,10 +15,10 @@ export default function Loader({ ready }) {
   }, [])
 
   useEffect(() => {
-    if (!ready) return
+    if (!ready || !root.current) return
     const tl = gsap.timeline({ delay: 0.2 })
     tl.to(state.current, { v: 100, duration: 0.6, ease: 'power2.inOut', onUpdate: () => setCount(Math.round(state.current.v)) })
-      .to(root.current.querySelector('.loader__inner'), { y: -40, opacity: 0, duration: 0.8, ease: 'expo.in' })
+      .to(root.current.querySelector('.loader__inner') ?? {}, { y: -40, opacity: 0, duration: 0.8, ease: 'expo.in' })
       .to(root.current, { clipPath: 'inset(0 0 100% 0)', duration: 1.1, ease: 'expo.inOut' }, '-=0.2')
       .add(() => {
         lockScroll(false)

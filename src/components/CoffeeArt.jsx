@@ -140,7 +140,7 @@ export default function CoffeeArt({ kind }) {
           <path d="M220 240c0-12 8-20 20-20h320c12 0 20 8 20 20l24 480H196z" fill="#6b3a1f" />
           <path d="M220 240c0-12 8-20 20-20h320c12 0 20 8 20 20l24 480H196z" fill="url(#beanShade)" opacity="0.5" />
           <rect x="290" y="380" width="220" height="250" fill="#efe2cc" />
-          <text x="400" y="440" textAnchor="middle" fontFamily="Cormorant Garamond, serif" fontSize="48" letterSpacing="10" fill="#2a170c">{SITE.brand}</text>
+          <text x="400" y="440" textAnchor="middle" fontFamily="Cormorant Garamond, serif" fontSize="48" letterSpacing="10" fill="#2a170c" textLength="196" lengthAdjust="spacingAndGlyphs">{SITE.brand.toUpperCase()}</text>
           <line x1="330" x2="470" y1="470" y2="470" stroke="#2a170c" opacity="0.4" />
           <text x="400" y="540" textAnchor="middle" fontFamily="Cormorant Garamond, serif" fontStyle="italic" fontSize="40" fill="#2a170c">Signature</text>
           <Bean x={640} y={760} r={20} s={0.9} fill="#4a2814" />

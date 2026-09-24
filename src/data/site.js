@@ -1,5 +1,5 @@
 export const SITE = {
-  brand: 'KAVORA',
+  brand: 'KAVORAQ Coffee',
   tagline: 'Coffee • Craft • Moment',
   heroTagline: 'A journey crafted into every cup.',
   currency: { code: 'INR', symbol: '₹', locale: 'en-IN' },
@@ -16,7 +16,7 @@ export const SITE = {
       ['Mon – Fri', '7:30 – 21:00'],
       ['Sat – Sun', '8:00 – 22:00'],
     ],
-    email: 'hello@kavora.example',
+    email: 'hello@kavoraq.example',
   },
 }
 
